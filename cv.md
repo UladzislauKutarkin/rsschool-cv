@@ -7,5 +7,5 @@
 4. **GitHub**:https://github.com/UladzislauKutarkin
 
 ##About me:
- *I'm not a developer, but i will be front-end developer in near future*
+ *I'm not a developer, but I will be front-end developer in near future*
  

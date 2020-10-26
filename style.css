@@ -6,15 +6,15 @@
 
 body {
     width: 100%;
-    background-image: url("img/cv-outreach-background-6.png");
-    background-repeat: no-repeat;
+    background-image: url("img/double-bubble-outline.png");
+    background-repeat: repeat;
     text-align: center;
-    background-size:100%;
+
 
 
 }
 
-.myinfo{
+.myInfo{
     display: flex;
     flex-direction: row;
     border-bottom: 4px black solid;
@@ -88,43 +88,96 @@ a:visited {
     background-color: #288be6;
     border-radius: 6px;
 }
-.allcontent {
+.allContent {
     max-width: 1024px;
 }
 
-.githubandmail{
+.gitHubAndMail{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    margin-right: 20px;
+
 
 }
 
-.phoneandlink {
+.gitHub{
+    display: flex;
+    flex-direction: row;
+}
+
+.gitHub * {
+    display: inline-block;
+    line-height: 42px;
+}
+
+.mailAdress {
+    display:flex;
+    flex-direction: row;
+}
+.mailAdress * {
+    display:inline-block;
+    line-height: 42px;
+}
+.gitHubAndMail*{
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+.phoneAndLink {
     display: flex;
     flex-direction: column;
+    padding-right: 100px;
+}
 
-    flex-basis: 100%;
+.linkiedIn{
+    display:flex;
+    flex-direction: row;
+}
+.linkiedIn * {
+    display: inline-block;
+    line-height: 42px;
+}
 
+.phoneNumber {
+    display:flex;
+    flex-direction: row;
+}
 
+.phoneNumber *{
+    display: inline-block;
+    line-height: 42px;
 }
 
 .links {
     display: flex;
     align-content: center;
+    margin: 40px;
 
 
+}
+.adressAndEnglishLevel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-left:4px solid #288be6;
 }
 
 .adress {
+    display: flex;
     font-size: 24px;
-    border-left: 3px black solid;
-    margin-top: 10px;
+
 }
 
-.Englishlvl {
+.adress strong {
+    align-content: center;
+}
+
+.englishLevel {
+    display: flex;
     font-size: 24px;
-    border-left: 3px black solid;
-    margin-top: 10px;
+
 }
 
 .futureSkills {
@@ -148,7 +201,22 @@ a:visited {
     margin-left: 10px;
     background: #549c2c;
 }
-.lorem {
-    text-align: center;
-    font-size:20px;
+.educetionAndProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    border-left: 4px solid #288be6;
+
+}
+
+.educetion{
+    display: flex;
+    font-size:24px;
+    width: 400px;
+}
+
+.projects {
+    display: flex;
+    font-size: 24px;
 }
